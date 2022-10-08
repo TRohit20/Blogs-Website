@@ -39,6 +39,13 @@ section {
     padding: 3rem 0 2rem;
 }
 
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+
+}
+
 /* CSS for Header */
 
 header{
@@ -47,4 +54,49 @@ header{
     left: 0;
     width: 100%;
     z-index: 200;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.logo span{
+    color: var(--second-color);
+}
+
+.login {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--second-color);
+    color: var(--bg-color);
+}
+
+.login:hover {
+    background: hsl(24, 98%, 58%);
+    transition: 0.3s;
+}
+
+.signup {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--second-color);
+    color: var(--bg-color);
+}
+
+.signup:hover {
+    background: hsl(24, 98%, 58%);
+    transition: 0.3s;
 }
