@@ -1,2 +1,2 @@
 # Blogs-Website
-Hey guys, this is repository to develop a Community Drive Blogging website
+Hey guys, this is a repository to work on developing a Community Driven Blogging website where the user drives the website and content. where you can write blogs , it can be private or public. It has an authentication, where user cannot write or edit or delete blog unless user signs in. We can filter the blogs and watch the blogs of a particular user. The user who has written the blog can only edit or delete their blog.  
