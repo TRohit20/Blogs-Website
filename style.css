@@ -56,6 +56,16 @@ header{
     z-index: 200;
 }
 
+.header.shadow {
+    background:var(--bg-color);
+    transition: 0.4s;
+    box-shadow: 0 1px 4px hsl(0 4% 14% /10%);
+}
+
+.header.shadow .logo {
+    color: var(--text-color);
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -220,4 +230,9 @@ header{
     object-fit: cover;
     object-position: center;
     border: 2px solid var(--second-color);
+}
+
+.profile.name{
+    font-size: 0.9rem;
+    font-weight: 500;
 }
