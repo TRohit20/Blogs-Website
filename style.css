@@ -18,6 +18,11 @@
     --bg-color: #fff;
 }
 
+::selection {
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
 a {
     text-decoration: none;
 }
@@ -32,4 +37,14 @@ img {
 
 section {
     padding: 3rem 0 2rem;
+}
+
+/* CSS for Header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
 }
