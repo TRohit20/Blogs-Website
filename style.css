@@ -126,3 +126,23 @@ header{
     font-weight: 400;
 }
 
+/* Post Filter CSS */
+
+.post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+
+.filter-item {
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active-filter {
+    background: var(--second-color);
+    padding: 4PX 10px;
+    border-radius: 100px;
+}
