@@ -66,7 +66,7 @@ header{
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 
 .logo span{
@@ -100,3 +100,29 @@ header{
     background: hsl(24, 98%, 58%);
     transition: 0.3s;
 }
+
+/* Home CSS */
+
+.home{
+    width: 100%;
+    min-height: 440px;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.home-title {
+    font-size: 3.5rem;
+}
+
+.home-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
