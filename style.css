@@ -91,7 +91,7 @@ header{
     padding: 8px 14px;
     text-transform: uppercase;
     font-weight: 500;
-    border-radius: 4px;
+    border-radius: 100px;
     background: var(--second-color);
     color: var(--bg-color);
 }
