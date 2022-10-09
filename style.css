@@ -272,6 +272,12 @@ header.shadow .logo {
     background: var(--container-color);
 }
 
+.post-container{
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
 .header-content{
     display: flex;
     flex-direction: column;
@@ -286,7 +292,6 @@ header.shadow .logo {
     width: 90%;
     font-size: 2.6rem;
     color: var(--bg-color);
-    text-align: center;
     margin-bottom: 1rem;
 }
 .header-img{
@@ -298,7 +303,6 @@ header.shadow .logo {
 
 .post-content{
     margin-top: 10rem !important;
-    text-align: center;
 }
 
 .sub-heading{
@@ -309,6 +313,16 @@ header.shadow .logo {
     font-size: 1rem;
     line-height: 1.7rem;
     margin: 1rem 0 ;
-    text-align: center;
+    text-align: justify;
+}
 
+.share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+.share-title{
+    font-size: 1.4rem;
+    
 }
