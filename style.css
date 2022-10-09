@@ -324,5 +324,14 @@ header.shadow .logo {
 }
 .share-title{
     font-size: 1.4rem;
-    
+
+}
+
+/* Website Responsiveness */
+
+@media (max-width:1060px){
+    .container {
+        margin: 0 auto;
+        width: 95%;
+    }
 }
