@@ -56,13 +56,13 @@ header{
     z-index: 200;
 }
 
-.header.shadow {
+header.shadow {
     background:var(--container-color);
     transition: 0.4s;
     box-shadow: 0 1px 4px hsl(0 4% 14% /10%);
 }
 
-.header.shadow .logo {
+header.shadow .logo {
     color: var(--text-color);
 }
 
