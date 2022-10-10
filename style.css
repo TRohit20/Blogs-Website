@@ -73,6 +73,10 @@ header.shadow .logo {
     padding: 18px 0;
 }
 
+.life {
+    color: var(--second-color);
+}
+
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
