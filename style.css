@@ -102,6 +102,10 @@ header.shadow .logo {
 }
 
 .signup {
+    /* flex:1 1 200px; */
+    /* flex: 0.5; */
+    display:flex;
+    position:-webkit-sticky;
     padding: 8px 14px;
     text-transform: uppercase;
     font-weight: 500;
@@ -330,6 +334,12 @@ header.shadow .logo {
     font-size: 1.4rem;
 
 }
+
+
+/* //position a button page to left of the navbar? */
+
+
+
 
 /* Website Responsiveness */
 
