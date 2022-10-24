@@ -104,6 +104,8 @@ header.shadow .logo {
 .signup {
     /* flex:1 1 200px; */
     /* flex: 0.5; */
+    margin-right: 10px;
+    margin-left: auto;
     display:flex;
     position:-webkit-sticky;
     padding: 8px 14px;
