@@ -23,6 +23,12 @@ A website that driven by the user itself.
 
 # Contribution
 Feel free to contribute in any way you wish to. Steps to follow to contribute:
-1. Fork the repository
-2. Make changes or contributions in a new branch 
-3. And open a pull request
+Anything to correct or contribute? 
+
+1. Raise an issue mentioning the changes you'd like or to make
+
+2. Fork the repository or clone it to your local computer
+
+3. Contribute by making changes as you wish by creating a new branch
+
+4. Open a pull request to merge the new branch of your repo with the main repo here NOTE: Mention the Issue number the pull request will be closing.
