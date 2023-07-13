@@ -289,6 +289,7 @@ header.shadow .logo {
 
 .social a i,  .back-top-btn a i{
     font-size: var(--fs-footer-icon);
+<<<<<<< Updated upstream
 }
 
 .policies {
@@ -312,11 +313,42 @@ header.shadow .logo {
     font-weight: 400;
 }
 
+=======
+}
+
+.policies {
+    gap: 0.3rem;
+    order: 2;
+}
+
+.policies a {
+    font-size: var(--fs-footer-p);
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.back-top-btn {
+    order: 1;
+}
+
+.footer small {
+    font-size: var(--fs-copyright);
+    font-weight: 400;
+}
+
+>>>>>>> Stashed changes
 .social a i:hover, .back-top-btn a i:hover {
     transform: scale(1.2);
 } 
 
 
+<<<<<<< Updated upstream
+=======
+
+
+
+>>>>>>> Stashed changes
 /* Post-page CSS */
 
 .post-header{
